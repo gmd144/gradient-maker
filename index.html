@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Maker</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="col-md-2 mixer">
+                <div class="form-group">
+                    <label for="color1"><strong>First Color</strong></label>
+                    <input type="color" class="form-control" id="color1">
+                    <span id="c1"></span>
+                </div>
+                <div class="form-group">
+                    <label for="color2"><strong>Second Color</strong></label>
+                    <input type="color" class="form-control" id="color2">
+                    <span id="c2"></span>
+                </div>
+                <div class="form-group text-center">
+                    <button class="btn btn-info">Generate</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center">
+            <p>Click the <strong>Generate</strong> button or press the <strong>spacebar</strong> on the keyboard to
+                randomly generate a gradient.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
